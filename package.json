@@ -8,7 +8,6 @@
     "example": "example"
   },
   "scripts": {
-    "serve": "vue-cli-service serve",
     "start": "webpack serve --config config/webpack.config.js --open",
     "clean": "rimraf lib && rimraf es && rimraf dist",
     "build": "yarn clean && yarn build:dist && yarn build:dist-min && yarn build:esm && yarn build:esm-bundle",
